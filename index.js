@@ -2,9 +2,11 @@ const express = require('express');
 const app = express();
 const tasks = require('./routes/tasks');
 
-// routes
+//middleware
+app.use(express.json());
 
-app.use('/', tasks);
+// routes
+app.use('/api/v1/tasks', tasks);
 
 const port = process.env.PORT || 5025;
 
