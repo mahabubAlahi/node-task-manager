@@ -1,0 +1,27 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Task Manager",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahabubAlahi/node-task-manager.git"
+  },
+  "author": "Mahabub Alahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahabubAlahi/node-task-manager/issues"
+  },
+  "homepage": "https://github.com/mahabubAlahi/node-task-manager#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
